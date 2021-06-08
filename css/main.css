@@ -1,0 +1,141 @@
+#header {
+    height: 125px;
+    width: auto;
+    background-color: #CBC3E3;
+    display: flex;
+    align-content: center;
+    padding: 0 32px;
+}
+
+.header-link {
+    color: #301934;
+    font-size: 16px;
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+.header-logo {
+    padding-top: 1rem;
+    width: 20%;
+}
+
+.mobile-logo {
+    display: none;
+    padding-top: 1rem;
+    width: 24%;
+}
+
+.header-links {
+    padding-top: 3.5rem;
+    padding-left: 32rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mobile-links {
+    display: none;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+#item {
+  flex: 0 35%;
+  height: 20px;
+  margin-right: 2rem;
+  justify-content: center;
+}
+
+#container {
+    position: relative;
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+    padding: 75px;
+}
+
+#column {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#column h3 {
+  margin-left: 2rem;
+}
+
+#item-results strong {
+    color: #EAA221;
+}
+.rectangle {
+    border: 1px solid purple;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    background-color: lavender;
+    color: #301934;
+}
+
+.smallerrectangle {
+    border: 1px solid purple;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+#info-form {
+    display: flex;
+    align-content: space-between;
+    align-items: space-between;
+    justify-content: center;
+    flex-direction: column;
+    width: 220px;
+}
+
+.form-fields {
+    margin-top: 16px;
+}
+
+@media (min-width: 560px ) and (max-width: 1024px) {
+    #header {
+        height: 75px;
+    } 
+    .header-links, .header-logo {
+        display: none;
+    }
+    .mobile-logo {
+        display: initial;
+        width: 18%;
+        padding: .5rem;
+    }
+    .mobile-links {
+        display: initial;
+        padding-top: 1.75rem;
+        padding-left: 12rem;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+}
+
+@media (max-width: 559px) {
+    #header {
+        height: 75px;
+    } 
+    .header-links, .header-logo {
+        display: none;
+    }
+    .mobile-logo {
+        display: initial;
+    }
+    .mobile-links {
+        display: initial;
+        padding-top: 1.5rem;
+        padding-left: 6rem;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+}
