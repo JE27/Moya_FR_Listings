@@ -11,6 +11,7 @@
     font-size: 16px;
     margin-right: 40px;
     font-weight: bold;
+    b
 }
 
 .header-logo {
@@ -147,7 +148,7 @@ body {
     .mobile-links {
         display: initial;
         padding-top: 1.5rem;
-        padding-left: 6rem;
+        padding-left: 3.5rem;
         display: flex;
         justify-content: flex-end;
     }
