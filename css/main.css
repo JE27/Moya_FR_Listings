@@ -147,8 +147,8 @@ body {
     }
     .mobile-links {
         display: initial;
-        padding-top: 1.5rem;
-        padding-left: 3.5rem;
+        padding-top: 1rem;
+        padding-left: 1rem;
         display: flex;
         justify-content: flex-end;
     }
